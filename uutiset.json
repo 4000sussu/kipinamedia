@@ -164,103 +164,15 @@
     "kuvaAlt": "Häkki-ottelun yleiskuva",
     "linkki": "artikkelit/ice-cage-8-brannfors-eriksson.html"
   },
-   {
-    "id": "liiga-mestari-ulkomaille",
+  {
+    "id": "patrik-laine-vapaa-agentti",
     "kategoria": "kiekko",
     "kategoriaNimi": "Jääkiekko",
-    "otsikko": "Liiga-mestari löysi uuden joukkueen — siirtyy ensimmäistä kertaa urallaan ulkomaille",
-    "kuvaus": "Superkauden avausviikot ovat tuoneet jo useita yllättäviä pelaajaliikkeitä SM-liigasta ulkomaille.",
-    "lahde": "SuomiKiekko · 31.8.2026",
-    "kuva": "https://media.defense.gov/2014/Mar/07/2000870288/-1/-1/0/140228-F-JR143-009.JPG",
-    "kuvaAlt": "Jääkiekko-ottelu",
-    "linkki": "artikkelit/liiga-mestari-ulkomaille.html"
-  },
-  {
-    "id": "siirtoikkuna-umpeutui",
-    "kategoria": "futis",
-    "kategoriaNimi": "Jalkapallo",
-    "otsikko": "Kansainvälinen siirtoikkuna umpeutui — kesän kalleimmat pelaajahankinnat",
-    "kuvaus": "Veikkausliigan ja Euroopan kärkisarjojen kesäsiirrot tehtiin viime metreillä.",
-    "lahde": "Helsingin Uutiset · Veikkausliiga",
-    "kuva": "https://media.defense.gov/2016/May/09/2001534925/-1/-1/0/160504-F-XM667-004.JPG",
-    "kuvaAlt": "Jalkapallo-ottelu",
-    "linkki": "artikkelit/siirtoikkuna-umpeutui.html"
-  },
-  {
-    "id": "ufc-paris-hooker-parnasse",
-    "kategoria": "mma",
-    "kategoriaNimi": "Vapaaottelu",
-    "otsikko": "UFC Paris lauantaina: Hooker kohtaa debytantti Parnassen pääottelussa",
-    "kuvaus": "Ranskan pääkaupungin Accor Arena isännöi viikonlopun UFC-tapahtumaa.",
-    "lahde": "UFC-aikataulu · 5.9.2026",
-    "kuva": "https://media.defense.gov/2012/Dec/11/2000090086/-1/-1/0/121211-F-ZQ618-008.JPG",
-    "kuvaAlt": "Vapaaottelu-oktagoni",
-    "linkki": "artikkelit/ufc-paris-hooker-parnasse.html"
-  },
-  {
-    "id": "janni-hussi-vihaviestit",
-    "kategoria": "viihde",
-    "kategoriaNimi": "Viihde",
-    "otsikko": "Janni Hussi sai törkeitä vihaviestejä — julkaisi ne kaikkien nähtäville",
-    "kuvaus": "Julkkis napautti viestien lähettäjää avoimesti somessa.",
-    "lahde": "Ilta-Sanomat",
-    "kuva": "https://media.defense.gov/2015/Apr/14/2001041123/-1/-1/0/150414-Z-SM234-004.JPG",
-    "kuvaAlt": "TV-studio",
-    "linkki": "artikkelit/janni-hussi-vihaviestit.html"
-  },
-  {
-    "id": "assat-konkari",
-    "kategoria": "kiekko",
-    "kategoriaNimi": "Jääkiekko",
-    "otsikko": "Ässät hankki SM-liigan konkarin — \"poissaolot vaativat reagointia\"",
-    "kuvaus": "Porilaisseura vahvisti riveitään kokeneella pelaajalla ennen kauden alkua.",
-    "lahde": "Sportti.com · Liiga",
-    "kuva": "https://media.defense.gov/2014/Mar/07/2000870288/-1/-1/0/140228-F-JR143-009.JPG",
-    "kuvaAlt": "Jääkiekko-ottelu",
-    "linkki": "artikkelit/assat-konkari.html"
-  },
-  {
-    "id": "mestarien-liiga-otteluohjelma",
-    "kategoria": "futis",
-    "kategoriaNimi": "Jalkapallo",
-    "otsikko": "Mestarien liigan otteluohjelma julki — Kaan Kairinen kohtaa Euroopan kärkiseuroja",
-    "kuvaus": "Suomalaispelaajan uusi seura arpoi vastaan mannerten kovimpia nimiä.",
-    "lahde": "SuomiFutis",
-    "kuva": "https://media.defense.gov/2016/May/09/2001534925/-1/-1/0/160504-F-XM667-004.JPG",
-    "kuvaAlt": "Jalkapallo-ottelu",
-    "linkki": "artikkelit/mestarien-liiga-otteluohjelma.html"
-  },
-  {
-    "id": "ufc-331-van-pantoja",
-    "kategoria": "mma",
-    "kategoriaNimi": "Vapaaottelu",
-    "otsikko": "UFC 331: Joshua Van puolustaa mestaruutta Pantojaa vastaan 19.9.",
-    "kuvaus": "Lentosarjan kaksinkamppailu nähdään Los Angelesissa syyskuun lopulla.",
-    "lahde": "ESPN · Los Angeles",
-    "kuva": "https://media.defense.gov/2012/Dec/11/2000090086/-1/-1/0/121211-F-ZQ618-008.JPG",
-    "kuvaAlt": "Vapaaottelu-oktagoni",
-    "linkki": "artikkelit/ufc-331-van-pantoja.html"
-  },
-  {
-    "id": "aada-lansiluoto-erikoisjoukot",
-    "kategoria": "viihde",
-    "kategoriaNimi": "Viihde",
-    "otsikko": "Aada Länsiluoto otti silikonirinnat ja osallistui Erikoisjoukkoihin",
-    "kuvaus": "Julkkis kertoi avoimesti kokemuksistaan tositv-ohjelman rasittavalla esteradalla.",
-    "lahde": "Ilta-Sanomat · Televisio",
-    "kuva": "https://media.defense.gov/2015/Apr/14/2001041123/-1/-1/0/150414-Z-SM234-004.JPG",
-    "kuvaAlt": "TV-studio",
-    "linkki": "artikkelit/aada-lansiluoto-erikoisjoukot.html"
-  },
-  {
-    "id": "rops-sarjanousu",
-    "kategoria": "futis",
-    "kategoriaNimi": "Jalkapallo",
-    "otsikko": "RoPS taistelee tänä syksynä sarjanoususta — ylitti jo odotukset",
-    "kuvaus": "Rovaniemeläisseura on vakuuttanut uuden päävalmentajan alaisuudessa.",
-    "lahde": "Yle · Veikkausliiga",
-    "kuva": "https://media.defense.gov/2016/May/09/2001534925/-1/-1/0/160504-F-XM667-004.JPG",
-    "kuvaAlt": "Jalkapallo-ottelu",
-    "linkki": "artikkelit/rops-sarjanousu.html"
+    "otsikko": "Patrik Laine ilman seuraa — neljä NHL-jättiä jonottaa suomalaistykkiä",
+    "kuvaus": "Laine on rajoittamaton vapaa agentti, ja ainakin Toronto, Florida, Dallas ja Tampa Bay ovat kiikarissaan tarkkailleet suomalaislaituria.",
+    "lahde": "NHL Suomi (Bruce Garrioch / Ottawa Citizen) · 5.9.2026",
+    "kuva": "https://media.defense.gov/2017/Jan/09/2001685499/-1/-1/0/170107-F-SK378-0524.JPG",
+    "kuvaAlt": "Jääkiekkoilija ampumassa kiekkoa maalia kohti",
+    "linkki": "artikkelit/patrik-laine-vapaa-agentti.html"
   }
 ]
