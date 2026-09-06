@@ -395,6 +395,48 @@
   @media (prefers-reduced-motion: reduce){
     .card{ transition:none; }
   }
+
+  /* ---------- Mobiilioptimointi ---------- */
+  @media (max-width:700px){
+    .header-inner{
+      flex-direction:column;
+      align-items:center;
+      gap:10px;
+      padding:14px 16px;
+    }
+    .logo{
+      position:static;
+      transform:none;
+      font-size:26px;
+      gap:8px;
+    }
+    .logo img{ height:32px; }
+    nav.main-nav{
+      gap:8px 16px;
+    }
+    .nav-btn{ font-size:14px; }
+
+    .page{ padding:24px 16px 60px; }
+
+    .carousel-arrow{
+      width:36px;
+      height:36px;
+      font-size:18px;
+    }
+    .carousel-arrow.prev{ left:8px; }
+    .carousel-arrow.next{ right:8px; }
+    .carousel-body{ padding:24px 16px 32px; }
+    .carousel-body .dek{ font-size:14px; }
+
+    .card-media{ height:150px; }
+    .card-body{ padding:14px 16px 16px; }
+  }
+
+  @media (max-width:420px){
+    .carousel-media{ height:360px; }
+    .logo{ font-size:22px; }
+    .logo img{ height:28px; }
+  }
 </style>
 </head>
 <body>
