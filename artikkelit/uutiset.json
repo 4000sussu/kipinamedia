@@ -1,0 +1,46 @@
+[
+  {
+    "id": "suomalaislupaus-ufc-sopimus",
+    "kategoria": "mma",
+    "kategoriaNimi": "Vapaaottelu",
+    "otsikko": "Suomalaislupaus valmistautuu UFC-sopimukseen — debyytti voi tulla jo tänä syksynä",
+    "kuvaus": "Kuvitteellinen esimerkkijuttu suomalaisesta vapaaottelulupauksesta, joka valmistautuu isoon sopimukseen.",
+    "lahde": "Kipinämedia (esimerkkijuttu)",
+    "kuva": "https://media.defense.gov/2022/Nov/10/2003124780/-1/-1/0/221104-F-XS730-9009.JPG",
+    "kuvaAlt": "Kaksi ottelijaa kehässä",
+    "linkki": "artikkelit/suomalaislupaus-ufc-sopimus.html"
+  },
+  {
+    "id": "ice-cage-8-brannfors-eriksson",
+    "kategoria": "mma",
+    "kategoriaNimi": "Vapaaottelu",
+    "otsikko": "Ice Cage 8 tuo Turkuun historian: ensimmäinen 5x5-mestaruusmatsi naisille",
+    "kuvaus": "Sani Brännfors puolustaa kärpässarjan mestaruusvyötä Millie Erikssonia vastaan Suomen ensimmäisessä 5x5-erillä otellussa naisten mestaruusottelussa.",
+    "lahde": "Kaleva · Ice Cage 8, 19.9.2026",
+    "kuva": "https://media.defense.gov/2012/Dec/11/2000090086/-1/-1/0/121211-F-ZQ618-008.JPG",
+    "kuvaAlt": "Häkki-ottelun yleiskuva",
+    "linkki": "artikkelit/ice-cage-8-brannfors-eriksson.html"
+  },
+  {
+    "id": "patrik-laine-vapaa-agentti",
+    "kategoria": "kiekko",
+    "kategoriaNimi": "Jääkiekko",
+    "otsikko": "Patrik Laine ilman seuraa — neljä NHL-jättiä jonottaa suomalaistykkiä",
+    "kuvaus": "Laine on rajoittamaton vapaa agentti, ja ainakin Toronto, Florida, Dallas ja Tampa Bay ovat kiikarissaan tarkkailleet suomalaislaituria.",
+    "lahde": "NHL Suomi (Bruce Garrioch / Ottawa Citizen) · 5.9.2026",
+    "kuva": "https://media.defense.gov/2017/Jan/09/2001685499/-1/-1/0/170107-F-SK378-0524.JPG",
+    "kuvaAlt": "Jääkiekkoilija ampumassa kiekkoa maalia kohti",
+    "linkki": "artikkelit/patrik-laine-vapaa-agentti.html"
+  },
+  {
+    "id": "immu-fight-night",
+    "kategoria": "mma",
+    "kategoriaNimi": "Vapaaottelu",
+    "otsikko": "Immu Fight Night valtaa Helsingin jäähallin lauantaina — Karalahti vastaan Ilmén",
+    "kuvaus": "Nelonen Media Liven kamppailu-urheilujätti Immu Fight Night nähdään Helsingin jäähallissa 12.9., pääkohtaamisena Jere Karalahti vastaan Immu Ilmén.",
+    "lahde": "Nelonen Media / STT Info · 12.9.2026",
+    "kuva": "artikkelit/ifn-immu-karalahti.png",
+    "kuvaAlt": "IFN: Immu vastaan Karalahti, Cage Boxing -tapahtuman juliste",
+    "linkki": "artikkelit/immu-fight-night.html"
+  }
+]
