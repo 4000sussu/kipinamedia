@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kierrosraportti: Lahti mursi kirouksensa, Vaasassa lensivät nyrkit — Kipinämedia</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap');
+
+  :root{
+    --bg:#E8951A;
+    --page-bg:#FFFFFF;
+    --surface:#FFFFFF;
+    --surface-2:#FBF2E4;
+    --line:#E9DEC8;
+    --text:#1C130A;
+    --header-text:#1C130A;
+    --header-muted:#6B5215;
+    --muted:#7A6A52;
+    --red:#E8721A;
+    --red-dim:#A8500F;
+    --yellow:#F5B800;
+  }
+
+  *{ box-sizing:border-box; }
+
+  body{
+    margin:0;
+    background:var(--page-bg);
+    color:var(--text);
+    font-family:'Inter', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  a{ color:inherit; }
+
+  /* ---------- Header (identtinen etusivun kanssa) ---------- */
+  header{
+    border-bottom:2px solid var(--bg);
+    background:var(--bg);
+    color:var(--header-text);
+    position:sticky;
+    top:0;
+    z-index:10;
+  }
+  header{ position:relative; }
+  .header-inner{
+    max-width:1100px;
+    margin:0 auto;
+    padding:18px 24px;
+    display:flex;
+    align-items:center;
+    gap:24px;
+    flex-wrap:wrap;
+  }
+  .logo{
+    position:absolute;
+    left:20px;
+    top:50%;
+    transform:translateY(-50%);
+    font-family:'Bebas Neue', sans-serif;
+    font-size:42px;
+    letter-spacing:0.03em;
+    display:flex;
+    align-items:center;
+    gap:14px;
+  }
+  .logo .dot{ color:var(--red); }
+
+  nav.main-nav{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    width:100%;
+  }
+  .nav-btn{
+    background:none;
+    border:none;
+    font-family:'Inter', sans-serif;
+    font-size:19px;
+    font-weight:700;
+    color:var(--header-text);
+    cursor:pointer;
+    padding:6px 0;
+    border-bottom:2px solid transparent;
+    text-decoration:none;
+    display:inline-block;
+  }
+  .nav-btn.active{ color:var(--header-text); border-bottom-color:var(--red); }
+
+  /* ---------- Layout ---------- */
+  .page{
+    max-width:760px;
+    margin:0 auto;
+    padding:36px 24px 80px;
+  }
+
+  .breadcrumb{
+    font-size:13px;
+    color:var(--muted);
+    margin:0 0 18px;
+  }
+  .breadcrumb a{ text-decoration:none; font-weight:600; color:var(--red-dim); }
+  .breadcrumb a:hover{ color:var(--red); }
+
+  .tag{
+    display:inline-block;
+    font-family:'Inter', sans-serif;
+    font-size:12px;
+    font-weight:700;
+    color:var(--red);
+    background:rgba(232,114,26,0.12);
+    border:1px solid rgba(232,114,26,0.4);
+    border-radius:2px;
+    padding:3px 9px;
+    margin-bottom:14px;
+  }
+
+  h1.article-title{
+    font-family:'Bebas Neue', sans-serif;
+    font-weight:400;
+    font-size:clamp(34px, 6vw, 52px);
+    line-height:1.08;
+    letter-spacing:0.01em;
+    margin:0 0 14px;
+  }
+
+  .article-dek{
+    font-size:18px;
+    line-height:1.5;
+    color:var(--muted);
+    margin:0 0 16px;
+    max-width:56ch;
+  }
+
+  .meta{
+    font-size:13px;
+    color:var(--muted);
+    display:flex;
+    gap:8px;
+    align-items:center;
+    margin-bottom:24px;
+    border-bottom:1px solid var(--line);
+    padding-bottom:22px;
+  }
+  .meta .sep{ color:var(--line); }
+
+  .media{
+    position:relative;
+    overflow:hidden;
+    background:#0d0d0d;
+    border-radius:16px;
+    border:1px solid var(--line);
+    height:340px;
+    margin-bottom:8px;
+  }
+  .media img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    display:block;
+    padding:28px;
+  }
+  .media-caption{
+    font-size:12.5px;
+    color:var(--muted);
+    margin:0 0 32px;
+  }
+
+  .article-body{
+    font-size:17px;
+    line-height:1.7;
+  }
+  .article-body p{ margin:0 0 20px; }
+  .article-body h2{
+    font-family:'Bebas Neue', sans-serif;
+    font-weight:400;
+    font-size:26px;
+    letter-spacing:0.01em;
+    margin:36px 0 14px;
+    padding-top:2px;
+  }
+
+  .scorebox{
+    background:var(--surface-2);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:18px 22px;
+    margin:8px 0 28px;
+  }
+  .scorebox h3{
+    font-family:'Bebas Neue', sans-serif;
+    font-weight:400;
+    font-size:19px;
+    letter-spacing:0.03em;
+    margin:0 0 12px;
+    color:var(--red-dim);
+  }
+  .scorebox ul{
+    list-style:none;
+    margin:0; padding:0;
+    display:flex;
+    flex-direction:column;
+    gap:9px;
+  }
+  .scorebox li{
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+    font-size:15px;
+    font-weight:600;
+    border-bottom:1px dashed var(--line);
+    padding-bottom:9px;
+  }
+  .scorebox li:last-child{ border-bottom:none; padding-bottom:0; }
+  .scorebox li span.score{
+    font-family:'Bebas Neue', sans-serif;
+    font-size:18px;
+    letter-spacing:0.02em;
+    color:var(--text);
+  }
+
+  .byline-box{
+    margin-top:44px;
+    padding-top:22px;
+    border-top:1px solid var(--line);
+    font-size:13.5px;
+    color:var(--muted);
+    line-height:1.6;
+  }
+
+  .back-link{
+    display:inline-block;
+    margin-top:30px;
+    font-size:14px;
+    font-weight:700;
+    color:var(--red-dim);
+    text-decoration:none;
+  }
+  .back-link:hover{ color:var(--red); }
+
+  footer{
+    max-width:760px;
+    margin:0 auto;
+    padding:0 24px 50px;
+    color:var(--muted);
+    font-size:13px;
+    line-height:1.6;
+    border-top:1px solid var(--line);
+    padding-top:22px;
+  }
+
+  @media (max-width:700px){
+    .header-inner{
+      flex-direction:column;
+      align-items:center;
+      gap:10px;
+      padding:14px 16px;
+    }
+    .logo{ position:static; transform:none; font-size:26px; gap:8px; }
+    nav.main-nav{ gap:16px; }
+    .nav-btn{ font-size:15px; }
+    .page{ padding:24px 16px 60px; }
+    .media{ height:220px; }
+    .article-body{ font-size:16px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo"><span>Kipinä<span class="dot">media</span></span></div>
+    <nav class="main-nav" aria-label="Kategoriat">
+      <a class="nav-btn" href="index.html">Etusivu</a>
+      <a class="nav-btn active" href="index.html">Jääkiekko</a>
+      <a class="nav-btn" href="index.html">Jalkapallo</a>
+      <a class="nav-btn" href="index.html">Vapaaottelu</a>
+      <a class="nav-btn" href="index.html">Viihde</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page">
+
+  <p class="breadcrumb"><a href="index.html">← Etusivulle</a></p>
+
+  <span class="tag">Jääkiekko</span>
+
+  <h1 class="article-title">Kierrosraportti: Lahti mursi kirouksensa, Vaasassa lensivät nyrkit</h1>
+
+  <p class="article-dek">Keskiviikon Liiga-kierros tarjosi kuusi ottelua, joissa nähtiin videotarkastettu voittomaali, kunnon tappelu ja yksi todella vakuuttava vierasvoitto.</p>
+
+  <div class="meta">
+    <span>Kipinämedia</span>
+    <span class="sep">·</span>
+    <span>Jääkiekko</span>
+    <span class="sep">·</span>
+    <span>10.9.2026</span>
+  </div>
+
+  <div class="media">
+    <img src="liiga-logo.png" alt="Liigan tunnus">
+  </div>
+  <p class="media-caption">Kuva: Liiga</p>
+
+  <div class="article-body">
+
+    <p>Liiga-kausi jatkui keskiviikkona kuudella runkosarjaottelulla, ja illan mittaan ehdittiin nähdä vähän kaikkea laidasta laitaan. Lahdessa katkesi vuosien takainen kirous, Vaasassa mentiin hetkeksi tunteella yli äyräiden, ja Jyväskylän JYP käveli Rauman yli lähes leikiten.</p>
+
+    <div class="scorebox">
+      <h3>Illan tulokset</h3>
+      <ul>
+        <li>Jukurit – HIFK <span class="score">3–1</span></li>
+        <li>Kiekko-Espoo – KooKoo <span class="score">6–2</span></li>
+        <li>Lukko – JYP <span class="score">0–5</span></li>
+        <li>Pelicans – KalPa <span class="score">2–0</span></li>
+        <li>Sport – TPS <span class="score">2–1</span></li>
+        <li>Ässät – Jokerit <span class="score">3–2</span></li>
+      </ul>
+    </div>
+
+    <h2>Lahti hautasi vihdoin KalPa-kirouksensa</h2>
+    <p>Pelicansille kohtaaminen KalPan kanssa on ollut viime vuosina lähes yksinomaan tuskaa, mutta keskiviikkoiltana kirous vihdoin katkesi. Ottelun ainoa toisen erän maali syntyi videotarkastuksen jälkeen: kiekko löysi tiensä KalPan maalille puolustajan luistimen kautta, mutta koska Lahden hyökkääjä ehti koskettaa kiekkoa juuri ennen sitä, osuma merkittiin lopulta kotijoukkueen nimiin. Kolmannessa erässä Pelicans varmisti voiton vielä ylivoimamaalilla, jolloin lukemat kipusivat 2–0:aan.</p>
+    <p>Ottelussa oli myös pieni suvun sisäinen jännite: KalPan riveissä pelaa Pelicans-legenda Sami Kapasen poika, ja juuri Kapanen istuu nykyisin Pelicansin valmentajapenkillä. Voitto oli hänelle ensimmäinen KalPaa vastaan valmentajanuralla — ja samalla ensimmäinen kuuteen kertaan Pelicansille ylipäätään, sillä edellinen voitto KalPasta oli tullut lähes kaksi vuotta sitten. KalPan tuore hankinta koki niin ikään kylmän paluun entiseen kotihalliinsa kahden jäähyn kera.</p>
+
+    <h2>Vaasassa löivät sekä kiekot että nyrkit</h2>
+    <p>Sport ja TPS kävivät Vaasassa kovatasoisen ja ajoittain kuumaveriseksi äityneen ottelun, joka päättyi kotijoukkueen 2–1-voittoon. Tunteet nousivat pintaan jo ennen varsinaista ratkaisua, kun kaksi pelaajaa selvitteli väliriitojaan nyrkein ja molemmat saivat siitä pelirangaistuksen. Vähän myöhemmin nähtiin myös rajumpi laitataklaus, joka päätyi videotarkastuksen kautta pelirangaistukseen ja lähetti taklatun pelaajan suoraan pukukoppiin. Illan päätteeksi tuomariston pöydälle kirjattiin kolme erillistä ulosajoa — harvinaisen paljon yhdestä ottelusta.</p>
+
+    <h2>Muut ottelut lyhyesti</h2>
+    <p>JYP teki illan tehokkaimman vierasesityksen ja vei pisteet Raumalta selvin lukemin 5–0 — Lukolle kova pettymys omalla jäällä. Jukurit puolestaan kukisti HIFK:n 3–1 ja Kiekko-Espoo pisti kuusi kiekkoa sisään KooKoota vastaan lukemin 6–2. Ässät taas piti pintansa loppuun asti Jokereita vastaan ja vei kotivoiton 3–2, vaikka jokereiden hyökkääjä yritti kääntää peliä yhdellä todella näyttävällä yksilösuorituksella loppua kohden.</p>
+
+    <p>Liiga jatkuu jo lähipäivinä uusilla otteluilla — seuraava suuri kierros pelataan tiistaina 15.9.</p>
+
+  </div>
+
+  <div class="byline-box">
+    Toimitus: Kipinämedia. Ottelutiedot ja tulokset perustuvat julkiseen otteluseurantaan. Onko sinulla korjattavaa tai lisättävää tähän kierrokseen? Ota yhteyttä toimitukseen.
+  </div>
+
+  <a class="back-link" href="index.html">← Takaisin etusivulle</a>
+
+</div>
+
+<footer>
+  Kipinämedia — viihde, jääkiekko, jalkapallo ja vapaaottelu.
+</footer>
+
+</body>
+</html>
