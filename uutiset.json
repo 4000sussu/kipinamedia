@@ -53,5 +53,16 @@
     "kuva": "artikkelit/mestarien-liiga-logo.png",
     "kuvaAlt": "UEFA Mestarien liigan tähtipallo-logo",
     "linkki": "artikkelit/mestarien-liiga-tilanne-9-9-2026.html"
+  },
+  {
+    "id": "keskiviikon-liiga-kierros",
+    "kategoria": "kiekko",
+    "kategoriaNimi": "Jääkiekko",
+    "otsikko": "Kierrosraportti: Lahti mursi kirouksensa, Vaasassa lensivät nyrkit",
+    "kuvaus": "Keskiviikon Liiga-kierros toi videotarkastetun voittomaalin, kunnon tappelun ja JYPin murskavierasvoiton.",
+    "lahde": "Kipinämedia",
+    "kuva": "liiga-logo.png",
+    "kuvaAlt": "Liigan tunnus",
+    "linkki": "artikkelit/keskiviikon-liiga-kierros.html"
   }
 ]
