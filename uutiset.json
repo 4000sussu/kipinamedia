@@ -5,7 +5,7 @@
     "kategoriaNimi": "Vapaaottelu",
     "otsikko": "Suomalaislupaus valmistautuu UFC-sopimukseen — debyytti voi tulla jo tänä syksynä",
     "kuvaus": "Kuvitteellinen esimerkkijuttu suomalaisesta vapaaottelulupauksesta, joka valmistautuu isoon sopimukseen.",
-    "lahde": "Kipinämedia (esimerkkijuttu)",
+    "lahde": "Roihumedia (esimerkkijuttu)",
     "kuva": "https://media.defense.gov/2022/Nov/10/2003124780/-1/-1/0/221104-F-XS730-9009.JPG",
     "kuvaAlt": "Kaksi ottelijaa kehässä",
     "linkki": "artikkelit/suomalaislupaus-ufc-sopimus.html"
@@ -28,8 +28,8 @@
     "otsikko": "Patrik Laine ilman seuraa — neljä NHL-jättiä jonottaa suomalaistykkiä",
     "kuvaus": "Laine on rajoittamaton vapaa agentti, ja ainakin Toronto, Florida, Dallas ja Tampa Bay ovat kiikarissaan tarkkailleet suomalaislaituria.",
     "lahde": "NHL Suomi (Bruce Garrioch / Ottawa Citizen) · 5.9.2026",
-    "kuva": "https://media.defense.gov/2017/Jan/09/2001685499/-1/-1/0/170107-F-SK378-0524.JPG",
-    "kuvaAlt": "Jääkiekkoilija ampumassa kiekkoa maalia kohti",
+    "kuva": "artikkelit/patrik-laine-canadiens.png",
+    "kuvaAlt": "Patrik Laine Montreal Canadiensin paidassa",
     "linkki": "artikkelit/patrik-laine-vapaa-agentti.html"
   },
   {
@@ -42,27 +42,5 @@
     "kuva": "artikkelit/ifn-immu-karalahti.png",
     "kuvaAlt": "IFN: Immu vastaan Karalahti, Cage Boxing -tapahtuman juliste",
     "linkki": "artikkelit/immu-fight-night.html"
-  },
-  {
-    "id": "mestarien-liiga-tilanne-9-9-2026",
-    "kategoria": "futis",
-    "kategoriaNimi": "Jalkapallo",
-    "otsikko": "Avauskierros ohi: Real Madrid kaatoi Interin, Kairinen ja AEK vei kolme pistettä — illalla jo lisää jättiotteluita",
-    "kuvaus": "Tiistain ottelut on pelattu maalirikkaissa merkeissä, AEK ja Kaan Kairinen veivät kolme pistettä LASKilta, ja keskiviikkoiltana vuorossa on jo Barcelona, Liverpool ja Napoli.",
-    "lahde": "Kenttä auki -toimitus · 9.9.2026",
-    "kuva": "artikkelit/mestarien-liiga-logo.png",
-    "kuvaAlt": "UEFA Mestarien liigan tähtipallo-logo",
-    "linkki": "artikkelit/mestarien-liiga-tilanne-9-9-2026.html"
-  },
-  {
-    "id": "liiga-kierros-9-9",
-    "kategoria": "kiekko",
-    "kategoriaNimi": "Jääkiekko",
-    "otsikko": "Kierrosraportti: Lahti mursi kirouksensa, Vaasassa lensivät nyrkit",
-    "kuvaus": "Keskiviikon Liiga-kierros toi videotarkastetun voittomaalin, kunnon tappelun ja JYPin murskavierasvoiton.",
-    "lahde": "Kipinämedia",
-    "kuva": "liiga-logo.png",
-    "kuvaAlt": "Liigan tunnus",
-    "linkki": "artikkelit/liiga-kierros-9-9.html"
   }
 ]
